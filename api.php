@@ -11,7 +11,7 @@ switch ($request_method) {
 			}
 			else
 			{
-				$mahasiswa->get_mahasiswas();
+				$mahasiswa->get_mahasiswa_all();
 			}
 			break;
 	case 'POST':

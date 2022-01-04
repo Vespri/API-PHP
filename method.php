@@ -3,7 +3,7 @@ require_once "koneksi.php";
 class API
 {
 
-	public  function get_mahasiswas()
+	public  function get_mahasiswa_all()
 	{
 		global $db_connect;
 		$query="SELECT * FROM mahasiswa";
